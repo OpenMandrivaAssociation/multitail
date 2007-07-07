@@ -1,5 +1,5 @@
 %define name multitail
-%define version 5.0.1
+%define version 5.0.5
 %define release %mkrel 1
 
 Summary: Multitail lets you view one or multiple files like the original tail program
@@ -9,7 +9,7 @@ Release: %release
 License: GPL
 Group: Text tools
 Url: http://www.vanheusden.com/multitail/
-Source: %{name}-%{version}.tar.bz2
+Source: %{name}-%{version}.tgz
 BuildRoot: %{_tmppath}/%name-buildroot
 BuildRequires:	libncurses-devel
 
