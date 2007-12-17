@@ -10,7 +10,6 @@ License: GPL
 Group: Text tools
 Url: http://www.vanheusden.com/multitail/
 Source: %{name}-%{version}.tgz
-BuildRoot: %{_tmppath}/%name-buildroot
 BuildRequires:	libncurses-devel
 
 %description
