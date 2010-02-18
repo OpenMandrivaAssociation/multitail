@@ -1,6 +1,6 @@
 %define name multitail
-%define version 5.2.2
-%define release %mkrel 3
+%define version 5.2.6
+%define release %mkrel 1
 
 Summary: Multitail lets you view one or multiple files like the original tail program
 Name: %name
