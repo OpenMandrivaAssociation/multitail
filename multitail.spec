@@ -2,7 +2,7 @@
 %define version 5.2.8
 %define release 2
 
-Summary: Multitail lets you view one or multiple files like the original tail program
+Summary: Lets you view one or multiple files like the original tail program
 Name: %name
 Version: %version
 Release: %release
