@@ -1,6 +1,6 @@
 %define name multitail
 %define version 5.2.8
-%define release 2
+%define release  3
 
 Summary: Lets you view one or multiple files like the original tail program
 Name: %name
@@ -29,17 +29,14 @@ deleting and adding windows.
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT%_bindir
-mkdir -p $RPM_BUILD_ROOT%_mandir/man1
-install -m 755 %name $RPM_BUILD_ROOT%_bindir/
-install -m 644 %name.1 $RPM_BUILD_ROOT%_mandir/man1/
+mkdir -p %{buildroot}%_bindir
+mkdir -p %{buildroot}%_mandir/man1
+install -m 755 %name %{buildroot}%_bindir/
+install -m 644 %name.1 %{buildroot}%_mandir/man1/
 
 %clean
-rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(-,root,root)
 %{_bindir}/*
 %{_mandir}/man1/*
 
