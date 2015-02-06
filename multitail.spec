@@ -1,6 +1,6 @@
 %define name multitail
 %define version 5.2.8
-%define release  3
+%define release  4
 
 Summary: Lets you view one or multiple files like the original tail program
 Name: %name
