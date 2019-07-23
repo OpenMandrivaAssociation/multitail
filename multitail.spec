@@ -5,7 +5,7 @@
 Summary: Lets you view one or multiple files like the original tail program
 Name: %name
 Version: %version
-Release: %release
+Release:	1
 License: GPL
 Group: Text tools
 Url: http://www.vanheusden.com/multitail/
