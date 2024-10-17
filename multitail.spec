@@ -8,7 +8,7 @@ Version: %version
 Release:	1
 License: GPL
 Group: Text tools
-Url: http://www.vanheusden.com/multitail/
+Url: https://www.vanheusden.com/multitail/
 Source: %{name}-%{version}.tgz
 BuildRequires:	ncurses-devel
 
